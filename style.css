@@ -1,0 +1,155 @@
+header{
+    background-color:#FFB6C1 ;
+    margin-bottom: 60px;
+}
+body{
+    margin: 0!important;
+}
+.top-bar{
+    padding-top: 18px;
+    padding-left: 25px;
+}
+.main-div{
+    display: inline !important;
+}
+.ulist{
+    display:flex;
+ list-style-type:none;
+ 
+}
+.top-nav{
+    background-color:#47b4d8;
+}
+.icon-list{
+    border-left: 1px solid hsla(0,0%,100%,.25);
+    padding: 10px 45px;
+    text-align: center;
+
+}
+i{
+    font-size: 44px;
+}
+#search{
+    border-right: 1px solid hsla(0,0%,100%,.25);
+    
+}
+.para-one{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Anton', sans-serif;
+}
+.icon-link{
+text-decoration: none;
+cursor: pointer;
+color: white;
+}
+h1,h2{
+    font-family: 'Leckerli One', cursive; 
+}
+.poem-sec{
+    padding-left: 45px;
+}
+.for-stars{
+    color: gainsboro;
+}
+.fa-star{
+    font-size: 15px;
+}
+.para-two{
+    font-family: 'Dosis', sans-serif;
+}
+span{
+    color: rgba(0, 0, 0, 0.973)
+}
+audio{
+    margin-top: 10px;
+ }
+
+ p{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 18px;
+    margin-bottom: 13px
+ }
+    
+ .submit-button{
+     color: white;
+     background-color: #FFB6C1;
+     font-weight: bold;
+     font-family: 'Anton', sans-serif;
+     padding: 13px 50px;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+ }
+
+ }
+ .enter-para{  font-family: 'Montserrat', sans-serif; 
+    font-size: 16px;
+    margin-bottom: 5px;
+ }
+ .main-div-1{
+     display: flex;
+ }
+ #sidebar{
+     margin-right: 3%;
+     margin-left: 2%;
+ }
+ .mail{
+    font-weight: bold;
+    font-size: 16px;
+    width: 175px;
+    padding: 10px;
+    margin-bottom: 15px;
+ }
+.subscribe{
+    border: 12px solid #277087;
+    padding: 10px;   
+background-color: aliceblue;
+ }
+.social-app{
+    background-color:  #277087;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.logo{
+    height: 65px;
+    padding: 12px 10px;
+    padding-left: 18px;
+}
+ 
+.amazon{
+    background-color: #277087;
+}
+.bbotm{
+    padding: 15px 52px;
+    
+}
+.buy-books{
+    background-color: #277087;
+
+}
+.shop{
+    padding: 15px 52px;
+}
+a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 18px;
+    color: rgb(76, 76, 248)
+}
+footer{   
+    background-color:#47b4d8;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    padding: 15px;
+    text-align: center;
+}
+.footer-para{
+    color: white;
+}
+.privacy{
+    color: rgb(14, 14, 97);
+    font-size: 14px;
+    text-decoration: underline;
+}
+
