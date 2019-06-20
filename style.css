@@ -1,53 +1,63 @@
 header{
-    background-color:#FFB6C1 ;
     margin-bottom: 60px;
 }
 body{
-    margin: 0!important;
+    margin: 0;
 }
 .top-bar{
-    padding-top: 18px;
-    padding-left: 25px;
-}
-.main-div{
-    display: inline !important;
-}
-.ulist{
-    display:flex;
- list-style-type:none;
- 
-}
-.top-nav{
     background-color:#47b4d8;
+    padding-top: 18px;
+    padding-left: 35px;
 }
-.icon-list{
-    border-left: 1px solid hsla(0,0%,100%,.25);
-    padding: 10px 45px;
+.bar{
+    display: none;
+}
+nav{
+    background-color: #3c2677;
+}
+nav ul{
+    display:flex;
+    list-style-type:none;
+    margin-top: 0;
+}
+nav li{ 
+    border-right: 1px solid hsla(0,0%,100%,.25);
+     display: flex;
+    flex-direction: column;  
+    padding: 15px 0 15px 0;
     text-align: center;
-
+    flex:1;
+}
+.give-left-border{
+    border-left: 1px solid hsla(0,0%,100%,.25);
+}
+.give-margin-right{
+    margin-right: 20px;
+}
+nav span{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif; 
 }
 i{
     font-size: 44px;
 }
-#search{
-    border-right: 1px solid hsla(0,0%,100%,.25);
-    
+nav a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    }
+/* main */
+section{
+    display: flex;
 }
-.para-one{
-    font-weight: bold;
-    font-size: 18px;
-    font-family: 'Anton', sans-serif;
-}
-.icon-link{
-text-decoration: none;
-cursor: pointer;
-color: white;
+main{
+    padding-left:45px;
 }
 h1,h2{
     font-family: 'Leckerli One', cursive; 
-}
-.poem-sec{
-    padding-left: 45px;
 }
 .for-stars{
     color: gainsboro;
@@ -55,81 +65,66 @@ h1,h2{
 .fa-star{
     font-size: 15px;
 }
-.para-two{
-    font-family: 'Dosis', sans-serif;
-}
 span{
     color: rgba(0, 0, 0, 0.973)
 }
 audio{
     margin-top: 10px;
- }
-
- p{
+}
+p{
     font-family: 'Montserrat', sans-serif; 
     font-size: 18px;
     margin-bottom: 13px
- }
-    
- .submit-button{
-     color: white;
-     background-color: #FFB6C1;
-     font-weight: bold;
-     font-family: 'Anton', sans-serif;
-     padding: 13px 50px;
-     font-size: 16px;
-     margin: 4px 2px;
-     cursor: pointer;
- }
-
- }
- .enter-para{  font-family: 'Montserrat', sans-serif; 
-    font-size: 16px;
-    margin-bottom: 5px;
- }
- .main-div-1{
-     display: flex;
- }
- #sidebar{
-     margin-right: 3%;
-     margin-left: 2%;
- }
- .mail{
-    font-weight: bold;
-    font-size: 16px;
-    width: 175px;
-    padding: 10px;
-    margin-bottom: 15px;
- }
+}
+main .give-border{
+    border-bottom: 1px solid #dcdcdc;
+}
+/* End main */
+#rightside{
+    margin-right: 3%;
+    margin-left: 2%;
+}
 .subscribe{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     border: 12px solid #277087;
-    padding: 10px;   
-background-color: aliceblue;
- }
+    padding: 6px 10px;
+}  
+button{
+    color: white;
+    background-color: #1bc7f2;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    border: 1px solid rgb(35, 106, 129);
+    border-radius: 3px;
+    padding: 8px 0;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.subscribe input{
+    border-radius: 3px;
+    border:1px solid #e6e6e6;
+    padding: 8px 6px;
+    margin:10px 5px  13px 5px;
+}
 .social-app{
     background-color:  #277087;
     margin-bottom: 15px;
+    padding: 10px 0;
     text-align: center;
 }
-.logo{
-    height: 65px;
-    padding: 12px 10px;
-    padding-left: 18px;
+.social-app img{
+    height: 60px;
+    align-content: center;
+    /* padding: 12px 10px;
+    padding-left: 18px; */
 }
- 
-.amazon{
+.same-div{
     background-color: #277087;
-}
-.bbotm{
-    padding: 15px 52px;
-    
-}
-.buy-books{
-    background-color: #277087;
-
-}
-.shop{
-    padding: 15px 52px;
+    text-align: center;
+    padding: 10px 0;
 }
 a{
     text-decoration: none;
@@ -137,19 +132,47 @@ a{
     font-size: 18px;
     color: rgb(76, 76, 248)
 }
+/* End rightside */
 footer{   
-    background-color:#47b4d8;
+    background-color: #3c2677;
     margin-bottom: 0px;
     margin-top: 15px;
-    padding: 15px;
+    padding: 10px;
+    font-size: 14px !important;
     text-align: center;
 }
-.footer-para{
+footer p{
     color: white;
 }
-.privacy{
-    color: rgb(14, 14, 97);
+footer a{
+    color: #ffffff;
     font-size: 14px;
     text-decoration: underline;
+}
+/* media query */
+@media screen and (max-width: 600px){
+    nav{
+        display: none;
+    }
+    .bar{
+        display: flex;
+        justify-content: center;
+        margin-top:15px;
+    }
+    .bar a{
+        background-color: #3c2677;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        padding: 8px;
+
+    }
+    .bar i{
+        font-size: 18px;
+        padding: 4px;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
